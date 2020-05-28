@@ -32,7 +32,6 @@ public class AlgorythmsHandsOnExperience {
         return fibonacci1(number-1) + fibonacci1(number-2); //tail recursion
     }
 
-
     /**
      * Java program to calculate Fibonacci number using loop or Iteration.
      * @return Fibonacci number
