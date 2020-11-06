@@ -66,10 +66,9 @@ public class AlgorythmsHandsOnExperience {
     boolean isPrimeNumber1(int num) {
         int sqrt = (int) sqrt(num) + 1;
         for (int i = 2; i < sqrt; i++) {
-            if (num % i == 0) {
+            if (num % i == 0)
                 // number is perfectly divisible - no prime
                 return false;
-            }
         }
         return true;
     }
@@ -251,7 +250,7 @@ public class AlgorythmsHandsOnExperience {
      */
     int[] reverseArray1(int[] a) {
         int[] b = new int[a.length];
-        for(int i = a.length-1, j = 0; i >= 0 && j < a.length; i--, j++)
+        for(int i = a.length-1, j = 0; i >= 0; i--, j++)
             b[j] = a[i];
         return b;
     }
@@ -1259,6 +1258,8 @@ public class AlgorythmsHandsOnExperience {
             }
         return sum1;
     }
+
+
 
 
 
